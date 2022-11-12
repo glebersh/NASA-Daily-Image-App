@@ -1,0 +1,135 @@
+.content-block__flex-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-main);
+}
+
+.content-block__img {
+  margin: 0 3em 0 0;
+  max-width: 640px;
+  color: var(--font-color-main);
+  font-size: 18px;
+  white-space: pre-line;
+  line-height: 2;
+}
+
+.content-block__text-content {
+  margin: 0 0 0 5em;
+  padding: 0;
+  display: inline-block;
+  width: 40%;
+  color: var(--font-color-secondary);
+}
+
+.content-block__info-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.content-block__list-item {
+  margin-top: 2em;
+}
+
+.content-block__list-item:first-of-type {
+  font-style: italic;
+}
+
+.content-block__list-item:nth-of-type(3) {
+  font-size: 1.3em;
+}
+
+.content-block__copyright-info {
+  font-style: italic;
+  color: var(--accent-color);
+}
+
+.content-block__item-title {
+  margin: 0;
+  padding: 0;
+  color: var(--font-color-secondary);
+  font-size: 2em;
+  font-weight: 300;
+  text-align: center;
+}
+
+.content-block__item-description {
+  font-size: 18px;
+  line-height: 2em;
+}
+
+.content-block__change-page-btn {
+  margin: 1em 0 2em 0;
+  padding: 8px 15px;
+  background-color: transparent;
+  color: var(--font-color-main);
+  border: 1px solid var(--font-color-main);
+  font-size: 16px;
+  transition: 0.33s ease-in-out;
+  text-align: center;
+}
+
+.content-block__change-page-btn:hover {
+  cursor: pointer;
+  background-color: var(--accent-color);
+  color: var(--font-color-third);
+  transition: 0.33s ease-in-out;
+}
+
+.content-block__change-page-btn:active {
+  transform: scale(0.95, 0.95);
+}
+
+/* media quieries */
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .content-block__img {
+    margin-right: 0;
+    max-width: 300px;
+  }
+
+  .content-block__text-content {
+    width: 80%;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .content-block__img {
+    margin-right: 0;
+    max-width: 420px;
+  }
+
+  .content-block__text-content {
+    width: 80%;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .content-block__img {
+    margin-right: 0;
+    max-width: 560px;
+  }
+
+  .content-block__text-content {
+    width: 80%;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1400px) {
+  .content-block__img {
+    margin-right: 0;
+    max-width: 700px;
+    margin-bottom: 2em;
+  }
+
+  .content-block__text-content {
+    width: 80%;
+    margin: 0;
+  }
+}

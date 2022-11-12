@@ -1,0 +1,36 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+  width: 100%;
+}
+
+.app {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+
+  --background-secondary: #1E213D;
+  --background-main: #FFFFFF;
+  --font-color-main: #000000;
+  --font-color-secondary: #1b233a;
+  --font-color-third: #FFFFFF;
+  --accent-color: #306ddd;
+  --border-color: #e0e0e07e;
+}
+
+[data-theme='dark'] {
+  --background-secondary: #242424;
+  --background-main: #292929;
+  --font-color-main: #ffffff;
+  --font-color-secondary: #ffffff;
+  --font-color-third: #FFFFFF;
+  --accent-color: #2e67d1;
+  --border-color: #e0e0e07e;
+}

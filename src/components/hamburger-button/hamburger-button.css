@@ -1,0 +1,23 @@
+.hamburger-button {
+  z-index: 100;
+  display: inline-block;
+  margin-right: 2em;
+}
+
+.hamburger-button__line {
+  background-color: var(--font-color-third);
+  margin-bottom: 10px;
+  width: 36px;
+  height: 3px;
+  transition: 0.5s;
+  pointer-events: none;
+}
+
+.hamburger-button:hover {
+  cursor: pointer;
+
+}
+
+.hamburger-button:active {
+  transform: scale(0.95, 0.95);
+}
