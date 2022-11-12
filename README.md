@@ -2,10 +2,10 @@
 
 ## Feautures
 
-*Getting daily updated images and data about space
-*Ability to view a randomly selected image from the entire archive of observations
-*Getting the selected number of images and related data for a certain period of time
-*Dark and light theme of the app
+* Getting daily updated images and data about space
+* Ability to view a randomly selected image from the entire archive of observations
+* Getting the selected number of images and related data for a certain period of time
+* Dark and light theme of the app
 
 ## Tech Stack and Other Tools
 
