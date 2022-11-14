@@ -12,7 +12,6 @@ const ContentBlock = () => {
   const nasaAPI = new NASA_API();
 
   useEffect(() => {
-    console.log(132);
     nasaAPI.getTodayData()
       .then((result) => updData(result))
       .then(() => updLoadingStatus(false));
