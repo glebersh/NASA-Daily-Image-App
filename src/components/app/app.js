@@ -11,7 +11,6 @@ import HomePage from '../home-page';
 import Layout from '../layout';
 
 export const HomePageHandlers = createContext();
-export const ItemCon = createContext();
 
 const App = () => {
   const [currentTheme, changeColorTheme] = useLocalStorage('light');
