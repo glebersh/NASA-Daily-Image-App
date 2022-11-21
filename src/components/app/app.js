@@ -21,7 +21,7 @@ const App = () => {
         <HomePageHandlers.Provider
           value={{ currentTheme, changeColorTheme }}>
           <Routes>
-            <Route path='/' element={<Layout theme={currentTheme} />}>
+            <Route path='NASA-Daily-Image-App/' element={<Layout theme={currentTheme} />}>
               <Route index element={<HomePage />} />
               <Route path='about' element={<AboutPage />} />
               <Route path='archive' element={<ArchivePage />} />

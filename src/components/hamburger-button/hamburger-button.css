@@ -5,7 +5,7 @@
 }
 
 .hamburger-button__line {
-  background-color: var(--font-color-third);
+  background-color: black;
   margin-bottom: 10px;
   width: 36px;
   height: 3px;

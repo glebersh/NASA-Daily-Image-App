@@ -14,13 +14,13 @@ const Header = (props) => {
       <nav className='header__nav'>
         <ul className='header__list'>
           <li className='header__list-item'>
-            <NavLink className='header__list-item-link' to='/'>Home</NavLink>
+            <NavLink className='header__list-item-link' to='/NASA-Daily-Image-App/'>Home</NavLink>
           </li>
           <li className='header__list-item'>
-            <NavLink className='header__list-item-link' to='/about'>About</NavLink>
+            <NavLink className='header__list-item-link' to='about'>About</NavLink>
           </li>
           <li className='header__list-item'>
-            <NavLink className='header__list-item-link' to='/archive'>Archive</NavLink>
+            <NavLink className='header__list-item-link' to='archive'>Archive</NavLink>
           </li>
         </ul>
       </nav>
